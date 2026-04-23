@@ -1,0 +1,32 @@
+# Datasets & models — auto-downloaded or trained, never committed
+data/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.env
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Scratch / local experiments
+scratch/
+tmp/
+*.log

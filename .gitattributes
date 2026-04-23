@@ -1,0 +1,9 @@
+# Git LFS for any future large sample images committed under sample_data/
+# (enable LFS with `git lfs install` once per machine; free up to 1 GB on GitHub)
+sample_data/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+sample_data/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+sample_data/**/*.png filter=lfs diff=lfs merge=lfs -text
+
+# Normalize line endings
+* text=auto eol=lf
+*.ipynb text eol=lf
